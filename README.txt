@@ -12,7 +12,6 @@ Product description:
 	A profile user needs to be set up with payment type
 	Option to have someone to pick you up and drop you up
 	There should be a way to communicate (text box, chat) that the host and the customer can be in communication between themselves.
-	Save option for places that we have visited before
-*check out for rvnv app features, interface and stuff like that, bring some ideas from there 
+	Save option for places that we have visited before 
 First spring = On Monday 23th we are going to set up the back log and determine what needs to be accomplished. 
 For the moment we have decided to use Xamarin as a tool de develop the app 
