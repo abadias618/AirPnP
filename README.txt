@@ -13,5 +13,5 @@ Product description:
 	Option to have someone to pick you up and drop you up
 	There should be a way to communicate (text box, chat) that the host and the customer can be in communication between themselves.
 	Save option for places that we have visited before 
-First spring = On Monday 23th we are going to set up the back log and determine what needs to be accomplished. 
+First sprint = On Monday 23th we are going to set up the back log and determine what needs to be accomplished. 
 For the moment we have decided to use Xamarin as a tool de develop the app 
