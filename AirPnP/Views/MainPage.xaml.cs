@@ -7,6 +7,7 @@ using Xamarin.Forms.Xaml;
 
 using AirPnP.Models;
 
+// hello
 namespace AirPnP.Views
 {
     // Learn more about making custom code visible in the Xamarin.Forms previewer
