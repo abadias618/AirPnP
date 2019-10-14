@@ -33,15 +33,18 @@ namespace AirPnP.Droid
            
         }
 
-        protected override void OnCreate(Bundle bundle) {
+        protected override void OnCreate(Bundle bundle)
+        {
             base.OnCreate(bundle);
             SetContentView(Resource.Layout.mapLay);
             SupportFragmentManager.BeginTransaction()
-                                  .Commit(); 
-            //var mapFrag = (MapFragment)FragmentManager.FindFragmentById(Resource.Id.map); 
+                                  .Commit();
 
+            var mapFrag = SupportMapFragment.NewInstance();
+            SupportFragmentManager.BeginTransaction()
+                                  .Add(Resource.Id.map, mapFrag, "map_fragment");
+                                 
         }
-
         void AddMarkersToMap()
         {
             var arenaMarker = new MarkerOptions();
