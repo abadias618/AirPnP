@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:d="http://xamarin.com/schemas/2014/forms/design" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="AirPNP_Beta.HomePage">
+    <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+    <StackLayout >
+         <!--Logo--> 
+        <StackLayout Padding="0,20,0,0">
+            <Image Source="maps.jpg" Aspect="AspectFit" VerticalOptions="StartAndExpand"
+            HorizontalOptions="Center"/>
+        </StackLayout>
+
+        <!--Parking spots collection view-->
+        <!--<StackLayout BackgroundColor="LightGray" VerticalOptions="EndAndExpand" Padding="30,50,30,60">-->
+            <CollectionView SelectionMode="Single">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Horizontal" Span="4"></GridItemsLayout>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Vertical">
+                            
+                                <Image Source="AirPnP.png" Aspect="AspectFit" HorizontalOptions="Center"/>
+                                <Label Text="ParkHere" FontSize="Large"></Label>
+ 
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        <!--</StackLayout>-->
+    </StackLayout>
+        </ScrollView>
+</ContentPage>
