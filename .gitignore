@@ -1,2 +1,12 @@
-#Ignore the vs file
+#INSTRUCTIONS TO USE THE GIT IGNORE
+#
+# To ignore files type the name and extension (exmple: README.txt)
+# To ignore certain file types, type "*" and the extension (exmple: *.java)
+# To ignore certain folders, type the name of the folder followed by "/" (exmple: airPnP/)
+# this sign "#" commments out text
+#
+
+
+
+#Ignore the vs file set by Abdias
 .vs/
