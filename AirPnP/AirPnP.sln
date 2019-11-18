@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirPnP.Android", "AirPnP.An
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirPnP.iOS", "AirPnP.iOS\AirPnP.iOS.csproj", "{4E5D6759-5FFE-4FD0-98D3-1894EE69E236}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirPnP", "AirPnP\AirPnP.csproj", "{98C6B267-7F23-43FB-B0C9-318B6F496EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirPnP", "AirPnP\AirPnP.csproj", "{98C6B267-7F23-43FB-B0C9-318B6F496EA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86F31C62-3337-4D2F-9704-561CA8172CC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
