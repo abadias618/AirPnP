@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Parking Description/Details"
+             x:Class="Navegacion.DescriptionDetail">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height=".2*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image Source="ParkingSolar2" Grid.Row="0" Aspect="Fill"></Image>
+                <StackLayout Margin="20,0,20,0" Grid.Row="1" >
+
+                <Label Text="Three parking spots" Grid.Row="1" HorizontalOptions="Start" FontSize="18" VerticalOptions="Center" Opacity="1"></Label>
+               
+                <Label Text="Parking spot with solar-powered electric car charging station " Grid.Row="2" HorizontalOptions="Start" FontSize="38"></Label>
+
+                <Label Grid.Row="3" Text="Sugar House, Salt Lake City U.T.                     
+                   Hosted by Ivan Regino. Three parking spots with solar-powered electric car charging station Great Location , Sparkling clean and safe"></Label>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Personal Information" 
+             x:Class="Navegacion.Page2">
+    <ContentPage.Content>
+        <Grid Margin="10,0,10,0" Padding="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+                <RowDefinition Height ="*"/>
+            </Grid.RowDefinitions>
+            <Label Text="Edit Personal Information"  Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" FontSize="Large"></Label>
+            <Label Text="First name"  Grid.Row="1" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Editor Grid.Row="1" VerticalOptions="End" Placeholder="Ivan" FontSize="28"></Editor>
+            <Label Text="Last Name"  Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Editor Grid.Row="2" VerticalOptions="End" Placeholder="Regino Hernandez" FontSize="28"></Editor>
+            <Label Text="Gender"  Grid.Row="3" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Editor Grid.Row="3" VerticalOptions="End" Placeholder="Muy Macho" FontSize="28"></Editor>
+            <Label Text="Birth Day"  Grid.Row="4" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Editor Grid.Row="4" VerticalOptions="End" Placeholder="10/03/93" FontSize="28"></Editor>
+            <Label Text="Email"  Grid.Row="5" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Editor Grid.Row="5" VerticalOptions="End" Placeholder="Ivan@hotmail.com" FontSize="28"></Editor>
+            <Label Text="Phone Number"  Grid.Row="6" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <Editor Grid.Row="6" VerticalOptions="End" Placeholder="8016609874" FontSize="28"></Editor>
+          
+            <Grid Grid.Row="7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center"/>
+                <Image Source="AirPnP" Grid.Column="1" VerticalOptions="FillAndExpand" Margin="0" Aspect="AspectFill"/>
+                <Label BackgroundColor="#bababa" HeightRequest="1" HorizontalOptions="FillAndExpand" VerticalOptions="Center" Grid.Column="2"/>
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
