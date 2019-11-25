@@ -1,0 +1,13 @@
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\bin\Debug\netstandard2.0\Bottom_Scroll.deps.json
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\bin\Debug\netstandard2.0\Bottom_Scroll.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\bin\Debug\netstandard2.0\Bottom_Scroll.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\Bottom_Scroll.csprojAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\Bottom_Scroll.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\Bottom_Scroll.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\Bottom_Scroll.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\Bottom_Scroll.dll
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\Bottom_Scroll.pdb
+C:\Users\Daniel\Documents\Visual Studio 2017\Projects\Bottom_Scroll\Bottom_Scroll\Bottom_Scroll\obj\Debug\netstandard2.0\View\ProductView.xaml.g.cs
